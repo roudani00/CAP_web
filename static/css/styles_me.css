@@ -1,0 +1,58 @@
+.backgroundcc {
+ background-color:
+}
+
+.pad_me {
+  padding-bottom: 7rem;          /* 64px – adjust as needed: 3rem, 5rem, 6rem, etc. */
+}
+
+.pad_top {
+padding-top: 2rem;
+}
+
+.pad_top_card {
+padding-top: 9rem;
+}
+
+.size_me {
+    font-size: 50px;
+}
+
+.pad_up_down_me {
+
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+}
+
+.justi {
+    text-align: justify;
+}
+
+
+.text_color_sub1 {
+ color: #626281;
+}
+
+.text_color_sub2 {
+ color: #2c2c56;
+}
+
+
+.text_color_text {
+ color: #c6c6d1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
