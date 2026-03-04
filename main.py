@@ -8,6 +8,9 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+
+#;qej
+
 @app.route('/members', methods=['GET','POST'])
 def mem():
     if request.method == 'POST':
