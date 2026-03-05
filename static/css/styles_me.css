@@ -34,8 +34,16 @@ padding-top: 9rem;
  color: #626281;
 }
 
+
+
 .text_color_sub2 {
  color: #2c2c56;
+}
+
+@media (max-width: 767.98px) {
+  .text_color_sub2 {
+    color: #0c0d3d; /* blue on phone/mobile */
+  }
 }
 
 
