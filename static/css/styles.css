@@ -670,6 +670,11 @@ progress {
     max-width: 1320px;
   }
 }
+
+
+
+
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -11122,7 +11127,18 @@ body {
   .masthead h1, .masthead .h1 {
     font-size: 4rem;
     line-height: 4rem;
+
   }
+}
+
+@media (max-width: 768px) {
+.masthead h1, .masthead .h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    align-items: end;
+
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -11165,10 +11181,15 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 0rem;
   background: linear-gradient(to bottom, #000033 0%, rgba(0, 0, 0, 0.3) 70%), url("/static/assets/sea3.jpg");
+}
+
+.about-member {
+  padding-top: 15rem;
 
 }
+
 .about-section p {
   margin-bottom: 5rem;
 }

@@ -10,6 +10,12 @@
 padding-top: 2rem;
 }
 
+
+.downnn {
+align-items: end;
+}
+
+
 .pad_top_card {
 padding-top: 9rem;
 }
@@ -54,13 +60,7 @@ padding-top: 9rem;
 
 
 
-
-
-
-
-
-
-
-
-
-
+/* === ADD THIS CODE - Text will stay BELOW when screen gets small === */
+/* === MAKE THE BIG TEXT GO DOWN TO THE BEGINNING OF THE BLUE AREA === */
+/* === MAKE TEXT GO DOWN TO THE START OF BLUE AREA ON MOBILE === */
+/* === STRONG FIX: Text goes to TOP of blue area on small screens === */
