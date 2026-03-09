@@ -11182,7 +11182,7 @@ body {
 
 .about-section {
   padding-top: 0rem;
-  background: linear-gradient(to bottom, #000033 0%, rgba(0, 0, 0, 0.3) 70%), url("/static/assets/sea3.jpg");
+  background: linear-gradient(to bottom, #000033 0%, rgba(0, 0, 0, 0.3) 10%), url("/static/assets/sea3.jpg");
 }
 
 .about-member {
