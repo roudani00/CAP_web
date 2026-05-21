@@ -5,6 +5,9 @@
 .pad_me {
   padding-bottom: 7rem;          /* 64px – adjust as needed: 3rem, 5rem, 6rem, etc. */
 }
+.pad-text-why {
+padding-bottom: 10rem;
+}
 
 .pad_top {
 padding-top: 2rem;
@@ -163,6 +166,10 @@ padding-top: 9rem;
 
 .pad_up {
   padding-top: 20px;
+}
+
+.card-text-left {
+text-align: left !important;
 }
 
 @media (min-width: 768px) {

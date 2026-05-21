@@ -4285,6 +4285,7 @@ textarea.form-control-lg {
 
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
+  margin-top: 30px;
 }
 
 .card-subtitle {
@@ -4357,6 +4358,15 @@ textarea.form-control-lg {
 .card-img-top {
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
+
+  border-radius: 50%;
+   position: relative;
+   top: 0 px;
+   left: 50%;
+   max-width: 75px;
+   border: 3px solid rgba(255, 255, 255, 1);
+   -webkit-transform: translate(-50%, 0%);
+   transform: translate(-50%, 0%);
 }
 
 .card-img,
@@ -11187,8 +11197,11 @@ body {
 
 .about-member {
   padding-top: 15rem;
-  background: linear-gradient(to bottom, #000033 0%, rgba(0, 0, 0, 0.3) 50%), url("/static/assets/sea3.jpg");
-
+  background: linear-gradient(to bottom, #000033 0%, rgba(0, 0, 0, 0.3) 30%), url("/static/assets/sea3.jpg");
+}
+.about-why {
+  padding-top: 15rem;
+  background: linear-gradient(to bottom, #000033 0%, rgba(0, 0, 0, 0.3) 70%), url("/static/assets/sea3.jpg");
 }
 
 .about-section p {

@@ -28,8 +28,12 @@ def data_anr():
         data = file.readlines()
         data = [s.replace('\n', ' ') for s in data]
         data = ''.join(data)
+        intrest = ["Robotics","Mechatronics","Control Systems","Aerodynamics"]
+        projects = ["Dielectric Barrier Discharge (DBD) active flow control","Inverted pendulum control using AI"]
+        head = " ذلِكَ فَضْلُ اللَّهِ يُؤْتِيهِ مَنْ يَشاءُ وَاللَّهُ واسِعٌ عَلِيمٌ"
         print('a')
-        return render_template('profile.html', name1="anr", name2="عبدالعزيز")
+        return render_template('profile.html', name1="Abdulaziz Al Roudan", name2="عبدالعزيز الروضان",
+                               intrest=intrest, projects=projects, slogen=head, img="static/assets/anr.png")
 @app.route('/datah' , methods= ['GET','POST'])
 def data_hanoosh():
     with open('hanoosh_data.txt') as file:
@@ -37,7 +41,7 @@ def data_hanoosh():
         data = [s.replace('\n', ' ') for s in data]
         data = ''.join(data)
         print('a')
-        return data
+        return render_template('profile.html', name1="hanoosh", name2="عبدالعزيز")
 @app.route('/datad' , methods= ['GET','POST'])
 def data_dawood():
     with open('dawood_data.txt') as file:
@@ -45,7 +49,7 @@ def data_dawood():
         data = [s.replace('\n', ' ') for s in data]
         data = ''.join(data)
         print('a')
-        return data
+        return render_template('profile.html', name1="dawod", name2="عبدالعزيز")
 @app.route('/dataf' , methods= ['GET','POST'])
 def data_fjr():
     with open('fjr_data.txt') as file:
@@ -53,7 +57,7 @@ def data_fjr():
         data = [s.replace('\n', ' ') for s in data]
         data = ''.join(data)
         print('a')
-        return data
+        return render_template('profile.html', name1="fjr", name2="عبدالعزيز")
 
 
 
