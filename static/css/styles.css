@@ -11187,6 +11187,7 @@ body {
 
 .about-member {
   padding-top: 15rem;
+  background: linear-gradient(to bottom, #000033 0%, rgba(0, 0, 0, 0.3) 50%), url("/static/assets/sea3.jpg");
 
 }
 

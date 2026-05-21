@@ -23,22 +23,44 @@ def why():
         return render_template('why.html')
     return render_template('why.html')
 
-@app.route('/data' , methods= ['GET','POST'])
-def data():
-    if request.form.get('action') == 'anr':
-        with open('anr_data.txt') as anr:
-            data = anr.readlines()
-            data = [s.replace('\n', ' ') for s in data]
-            data = ''.join(data)
-            print(data)
-            return data
+@app.route('/dataa' , methods= ['GET','POST'])
+def data_anr():
+    with open('anr_data.txt') as file:
+        data = file.readlines()
+        data = [s.replace('\n', ' ') for s in data]
+        data = ''.join(data)
+        print('a')
+        return render_template('profile.html', name1="anr", name2="عبدالعزيز")
+@app.route('/datah' , methods= ['GET','POST'])
+def data_hanoosh():
+    with open('hanoosh_data.txt') as file:
+        data = file.readlines()
+        data = [s.replace('\n', ' ') for s in data]
+        data = ''.join(data)
+        print('a')
+        return data
+@app.route('/datad' , methods= ['GET','POST'])
+def data_dawood():
+    with open('dawood_data.txt') as file:
+        data = file.readlines()
+        data = [s.replace('\n', ' ') for s in data]
+        data = ''.join(data)
+        print('a')
+        return data
+@app.route('/dataf' , methods= ['GET','POST'])
+def data_fjr():
+    with open('fjr_data.txt') as file:
+        data = file.readlines()
+        data = [s.replace('\n', ' ') for s in data]
+        data = ''.join(data)
+        print('a')
+        return data
 
 
 
 
-@app.route('/test')
-def test():
-    return render_template('test.html')
+
+
 
 if __name__ == "__main__":
     app.run(port= 5001,debug=True)

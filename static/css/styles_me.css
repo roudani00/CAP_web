@@ -104,6 +104,67 @@ padding-top: 9rem;
 
 
 
+.heading-text-member {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+
+
+@media (min-width: 992px) {
+
+  .about-member h1, .about-member .h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.1rem;
+  }
+  .about-member h2, .about-member .h2 {
+    max-width: 60rem;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .about-member h1, .about-member .h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    letter-spacing: 0.1rem;
+    align-items: end;
+
+  }
+}
+
+@media (max-width: 768px) {
+.about-member h1, .about-member .h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    letter-spacing: 0.1rem;
+    align-items: end;
+
+  }
+
+}
+
+.submember {
+  font-size: 1rem;
+}
+
+
+.pleftright {
+  padding-left: 37px;
+  padding-right: 37px;
+}
+
+.pad_up {
+  padding-top: 20px;
+}
+
 
 
 /* === ADD THIS CODE - Text will stay BELOW when screen gets small === */
