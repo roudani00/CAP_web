@@ -645,6 +645,8 @@ progress {
   margin-left: auto;
 }
 
+
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -670,8 +672,6 @@ progress {
     max-width: 1320px;
   }
 }
-
-
 
 
 

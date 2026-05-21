@@ -53,6 +53,8 @@ section {
    position: absolute;
    left: 0;
    top: 50%;
+   display: grid;
+   place-items: center;
 }
 
 .profile-card-1 .profile {
