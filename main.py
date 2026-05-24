@@ -29,7 +29,8 @@ def data_anr():
         data = [s.replace('\n', ' ') for s in data]
         data = ''.join(data)
         intrest = ["Robotics","Mechatronics","Control Systems","Aerodynamics"]
-        projects = ["Dielectric Barrier Discharge (DBD) active flow control","Inverted pendulum control using AI"]
+        projects = ["Dielectric Barrier Discharge (DBD) active flow control",
+                    "Inverted pendulum control using AI"]
         head = " ذلِكَ فَضْلُ اللَّهِ يُؤْتِيهِ مَنْ يَشاءُ وَاللَّهُ واسِعٌ عَلِيمٌ"
         print('a')
         return render_template('profile.html', name1="Abdulaziz Al Roudan", name2="عبدالعزيز الروضان",
