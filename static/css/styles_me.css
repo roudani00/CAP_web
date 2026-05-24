@@ -183,8 +183,8 @@ text-align: left !important;
 
 
 @media (max-width: 600px) {
-  .small-text {
-    font-size: 10px;
+  .small-text{
+    font-size: 13px;
   }
 }
 /* === ADD THIS CODE - Text will stay BELOW when screen gets small === */
